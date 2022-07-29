@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -34,5 +38,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We will use your location to give you the distance and directions to interesting places.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We will use your location to give you the distance and directions to interesting places.</string>
 </dict>
 </plist>

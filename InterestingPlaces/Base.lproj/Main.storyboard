@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,16 +24,22 @@
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" tag="2" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="8Ua-Ch-VNK">
-                                <rect key="frame" x="108.66666666666667" y="376" width="196.66666666666663" height="46.666666666666686"/>
+                                <rect key="frame" x="109.33333333333333" y="376" width="195.33333333333337" height="72"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aS-2A-efF">
-                                        <rect key="frame" x="75.999999999999986" y="0.0" width="44.666666666666671" height="20.333333333333332"/>
+                                        <rect key="frame" x="75.666666666666671" y="0.0" width="44.333333333333329" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYg-Ss-xrf">
+                                        <rect key="frame" x="68.000000000000014" y="26.333333333333314" width="59.666666666666671" height="19.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current location unknown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npl-lN-170">
-                                        <rect key="frame" x="0.0" y="26.333333333333314" width="196.66666666666666" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="51.666666666666686" width="195.33333333333334" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -43,7 +47,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3T7-TL-Z3g">
-                                <rect key="frame" x="194.66666666666666" y="439.66666666666669" width="25" height="25"/>
+                                <rect key="frame" x="194.66666666666666" y="465" width="25" height="25"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gy-w6-Em1">
                                         <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
@@ -93,6 +97,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="address" destination="XYg-Ss-xrf" id="G8k-hy-pyl"/>
                         <outlet property="locationDistance" destination="Npl-lN-170" id="yCu-8c-xOq"/>
                         <outlet property="placeImage" destination="Mqz-Dc-yPy" id="cvk-Ak-4r6"/>
                         <outlet property="placeName" destination="0aS-2A-efF" id="exL-a9-R6C"/>
@@ -122,7 +127,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="5849712695_1f41c8fbc2_b" width="245.75999450683594" height="153.1199951171875"/>
+        <image name="5849712695_1f41c8fbc2_b" width="1024" height="638"/>
         <image name="ALANNchair_8960.jpg" width="320" height="480"/>
         <image name="location" width="50" height="50"/>
     </resources>

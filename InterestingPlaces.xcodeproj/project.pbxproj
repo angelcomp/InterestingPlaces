@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89BC0C6E28940831009FBE03 /* InterestingPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BC0C6D28940831009FBE03 /* InterestingPlaces.swift */; };
 		D30AC51E216E4C9E00033D1D /* PlaceScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30AC51D216E4C9E00033D1D /* PlaceScrollViewController.swift */; };
 		D37747851CB6835700641F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37747841CB6835700641F78 /* AppDelegate.swift */; };
 		D37747871CB6835700641F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37747861CB6835700641F78 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89BC0C6D28940831009FBE03 /* InterestingPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingPlaces.swift; sourceTree = "<group>"; };
 		D30AC51D216E4C9E00033D1D /* PlaceScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceScrollViewController.swift; sourceTree = "<group>"; };
 		D37747811CB6835700641F78 /* InterestingPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterestingPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37747841CB6835700641F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		D37747831CB6835700641F78 /* InterestingPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				89BC0C6D28940831009FBE03 /* InterestingPlaces.swift */,
 				D37747841CB6835700641F78 /* AppDelegate.swift */,
 				D37747861CB6835700641F78 /* ViewController.swift */,
 				D37747881CB6835700641F78 /* Main.storyboard */,
@@ -110,6 +113,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -144,6 +148,7 @@
 			files = (
 				D37747871CB6835700641F78 /* ViewController.swift in Sources */,
 				D30AC51E216E4C9E00033D1D /* PlaceScrollViewController.swift in Sources */,
+				89BC0C6E28940831009FBE03 /* InterestingPlaces.swift in Sources */,
 				D37747851CB6835700641F78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
